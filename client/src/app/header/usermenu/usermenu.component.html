@@ -1,0 +1,8 @@
+<span id="user-menu-dropdown" dropdown (isOpenChange)="toggled($event)">
+    <a href dropdownToggle (click)="false">User Name</a>
+    <ul *dropdownMenu class="dropdown-menu">
+        <li *ngFor="let action of userActions">
+            <a class="dropdown-item" href="#">{{action}}</a>
+        </li>
+    </ul>
+</span>
