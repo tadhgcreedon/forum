@@ -7,12 +7,14 @@ import { BsDropdownModule } from 'ng2-bootstrap';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { UsermenuComponent } from './header/usermenu/usermenu.component';
+import { BodyComponent } from './body/body.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     UsermenuComponent,
+    BodyComponent,
   ],
   imports: [
     BrowserModule,
